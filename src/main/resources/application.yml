@@ -1,0 +1,12 @@
+#mq的地址
+server:
+  port: 12302
+spring:
+  application:
+    name: mq
+  rocketmq:
+        namesrvAddr: 127.0.0.1:9876
+        producer:
+          instanceName: mq
+        consumer:
+          subscribe: demo_mq
